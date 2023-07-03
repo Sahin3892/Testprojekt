@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fc8b02;
+}
+
+.header-logo {
+  display: flex;
+  cursor: pointer;
+}
+
+.header-icons {
+  height: 32px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.header-hamb-icon {
+  object-fit: contain;
+  padding-left: 10px;
+  padding-right: 6px;
+}
+
+.cover-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.split-div {
+  display: flex;
+}
+
+.house-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 22px;
+}
+
+.house-name-icon {
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.rating {
+  padding-left: 22px;
+}
+
+.info {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.info-icons {
+  padding-left: 22px;
+}
+
+.info-text {
+  padding-left: 3px;
+}
+
+.div-left {
+  width: 70%;
+}
+
+.div-right {
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.menu {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.menu-list {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border: 1px solid #dbd9d7;
+  border-radius: 12px;
+}
+
+.add-btn {
+  cursor: pointer;
+}
+
+.add-btn-justify {
+  display: flex;
+  justify-content: end;
+  margin: 10px;
+}
+
+.total {
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.order-btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  background-color: #fc8b02;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #545454;
+  height: 400px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addMoreDelete {
+  padding-left: 6px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 799px) {
+  .div-left {
+    width: 100%;
+  }
+
+  .menu-list {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #dbd9d7;
+    border-radius: 12px;
+  }
+
+  .menu-list h4 {
+    font-size: 1.2rem;
+  }
+
+  .split-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-right {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
